@@ -21,7 +21,6 @@ export default class S3File {
     };
 
     if (stream) {
-      console.log(params)
       return this.client.getObject(params).createReadStream() as Readable;
     }
     const result = await this.client.getObject(params).promise();
