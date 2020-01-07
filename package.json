@@ -1,0 +1,17 @@
+{
+  "name": "@fyreware/s3-remote-file",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^13.1.4",
+    "typescript": "^3.7.4"
+  }
+}
